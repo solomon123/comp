@@ -9,7 +9,7 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes: {git@github.com:solomon123/comp.git  }
 deploy:
   tag_source: true
 drush:
